@@ -1,0 +1,38 @@
+.vel_imagen, .vol_imagen{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#velocidad, #volumen{
+    font-size: 23px;
+    margin: 15px;
+}
+
+
+.div_velocidad{
+    float: left;
+}
+
+.div_volumen{
+    float: right;
+}
+
+body{
+    background-size: cover;
+}
+
+.titulo{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.NOTA{
+    font-size: 15px;
+    color: black;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+}
