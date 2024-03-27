@@ -74,8 +74,8 @@ function ver_resultados(results){
 if(results.length>0)
 {
     console.log(results);
-    puntuacion_muñeca_derecha=resuts[0].pose.keypoints[10].score;
-    puntuacion_muñeca_izquierda=resuts[0].pose.keypoints[9].score;
+    puntuacion_muñeca_derecha=results[0].pose.keypoints[10].score;
+    puntuacion_muñeca_izquierda=results[0].pose.keypoints[9].score;
 muñeca_izquierdax=results[0].pose.leftWrist.x;
 muñeca_izquierday=results[0].pose.leftWrist.y;
 muñeca_derechax=results[0].pose.rightWrist.x;    
